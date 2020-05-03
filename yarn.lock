@@ -9296,6 +9296,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
 
+siiimple-toast@^3.1.7:
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/siiimple-toast/-/siiimple-toast-3.1.7.tgz#f8dbfb0cfb069ab67057e6535913072f41453179"
+  integrity sha512-rY1zq1eTG554FAI/XMkAiTO8XKDwSVHedRANJBwHUPFK3/iVFiAFZOwGiBxGygvplKoo9l2w5QtR/uttZbIQ0Q==
+
 simple-swizzle@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/simple-swizzle/-/simple-swizzle-0.2.2.tgz#a4da6b635ffcccca33f70d17cb92592de95e557a"

@@ -1,0 +1,47 @@
+.Input-placeholder[data-placeholder-visible="true"] {
+  color: #8c8c8c;
+}
+
+.Input {
+  flex: 1 0 50%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 201, 153, 1) 100%
+  );
+  border-radius: 0.3rem;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+.numberOfTicketsLabel {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.vidNumber,
+.numberOfTickets {
+  background: #fff;
+}
+
+@media only screen and (min-width: 426px) {
+  .Input {
+    flex: 0 1 44%;
+    margin: 0.5rem;
+  }
+
+  .numberOfTickets {
+    max-width: 1rem;
+  }
+  .vidNumber,
+  .numberOfTickets,
+  .numberOfTicketsLabel {
+    flex: 1 1 auto;
+    align-self: center;
+    justify-self: center;
+  }
+}
